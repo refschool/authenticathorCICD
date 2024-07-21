@@ -1,0 +1,14 @@
+.idea/
+vendor/
+
+public/dist/
+
+fdroid/repo/
+fdroid/srclibs/
+fdroid/tmp/
+fdroid/keystore.p12
+
+node_modules/
+
+.env
+application/assets.json

@@ -1,0 +1,12 @@
+<div class="container">
+    <main id="hero">
+        <h1 class="mb">Error {{ code }}</h1>
+        <p>{{ message }}</p>
+
+{% if exception is defined %}
+<pre>
+{{ exception }}
+</pre>
+{% endif %}
+    </main>
+</div>
