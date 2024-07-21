@@ -55,11 +55,4 @@ jobs:
           printf %s "${{ secrets.ENV_FILE }}" > .env
 
       - name: Deploy with rsync
-        uses: burnett01/rsync-deployments@7.0.1
-        with:
-          switches: -avzr --delete
-          path: .
-          remote_path: /home/sc1czkq9370/authenticatorcicd.jedeploiemonappli.com/
-          remote_host: ${{ secrets.DEPLOY_HOST }}
-          remote_user: ${{ secrets.DEPLOY_USER }}
-          remote_key: ${{ secrets.DEPLOY_KEY }}
+run: 
